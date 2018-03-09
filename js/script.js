@@ -50,4 +50,28 @@ function showNav(){
 }).call(this);
 
 
-//Ouvrir
+//Ouvrir le modal
+
+var workElements=document.getElementsByClassName("work-container")[0].children;
+for(var i=0;i<workElements.length;i++){
+	(function(index){
+		workElements[index].addEventListener("click",function(){
+		index+=1;
+		document.getElementsByClassName("moreWorkContainer")[0].style.display = 'block';
+		var modal=document.getElementById("moreWork"+index);
+		modal.style.display = 'block';
+		},false);
+	})(i);
+	
+}
+
+var closeButtons=document.getElementsByClassName("moreWorkClose");
+for(var i = 0;i<closeButtons.length;i++){
+	closeButtons[i].addEventListener("click",function(e){
+		e.currentTarget.parentNode.style.display = 'none';
+		e.currentTarget.parentNode.parentNode.style.display = 'none';
+	})
+}
+
+
+//Caroussel du modal
