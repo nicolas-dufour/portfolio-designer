@@ -144,7 +144,7 @@ nav{
 	position: fixed;
 	width:100%;
 	height: 100%;
-	top:;
+	transform: translateY(100vh);
 	background: left/50% url("../img/tache_mauve1.png") fixed no-repeat;
 	z-index: -1;
 }
@@ -153,7 +153,7 @@ nav{
 	position: fixed;
 	width:100%;
 	height: 100%;
-	top:;
+	transform: translateY(100vh);
 	background: right/50% url("../img/tache_verte2.png") fixed no-repeat;
 	z-index: -1;
 }
@@ -213,48 +213,41 @@ nav{
 	justify-items: center;
 	align-items: center;
 }
-.work-element-1{
+.work-element{
 	width: 100%;
 	height:100%;
+	display:flex;
+	align-items: center;
+}
+#work-element-1{
 	grid-row:1/1; 
 	grid-column:1/7;
 	background-color: rgba(204,194,175,0.7);
 }
-.work-element-2{
-	width: 100%;
-	height:100%;
+#work-element-2{
 	grid-row:1/1; 
 	grid-column:7/13;
 	background-color: rgba(154,154,125,0.7);
 }
-.work-element-3{
-	width: 100%;
-	height:100%;
+#work-element-3{
 	grid-row:2/2; 
 	grid-column:1/5;
 	background-color: rgba(216,255,233,0.7);
 }
-.work-element-4{
-	width: 100%;
-	height:100%;
+#work-element-4{
 	grid-row:2/2; 
 	grid-column:5/13;
 	background-color: rgba(204,194,175,0.7);
 }
-.work-element-5{
-	width: 100%;
-	height:100%;
+#work-element-5{
 	grid-row:3/3; 
 	grid-column:1/9;
 	background-color: rgba(178,160,128,0.7);
 }
-.work-element-6{
-	width: 100%;
-	height:100%;
+#work-element-6{
 	grid-row:3/3; 
 	grid-column:9/13;
 	background-color: rgba(134,138,123,0.7);;
-	backgroud-t
 }
 .work-container img{
 	margin:auto;
@@ -262,6 +255,26 @@ nav{
 	max-width: 100%;
 	max-height: 100%;
 }
+.moreWorkContainer{
+	background-color: rgba(0,0,0,0.8);
+	display: fixed;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	overflow: auto;
+}
+.moreWork{
+/*	display:none;
+*/	position:fixed;
+	top:50%;
+	right: 50%;
+	padding:2%;
+	margin:auto;
+
+}
+
 .title{
 	grid-area: title;
 
