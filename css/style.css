@@ -119,7 +119,7 @@ nav{
 	position: fixed;
 	width:100%;
 	height: 100%;
-	background: center/110% url("../img/tache_rouge.png") fixed no-repeat;
+	background: center/110% url("../img/tacherouge.png") fixed no-repeat;
 	z-index: -1;
 }
 .layer-2{
@@ -127,7 +127,7 @@ nav{
 	position: fixed;
 	width:100%;
 	height: 100%;
-	background: left/50% url("../img/tache_orange2.png") fixed no-repeat;
+	background: left/50% url("../img/tachejaune.png") fixed no-repeat;
 	z-index: -2;
 }
 .layer-3{
@@ -135,7 +135,7 @@ nav{
 	position: fixed;
 	width:100%;
 	height: 100%;
-	background: right/50% url("../img/tache_bleue4.png") fixed no-repeat;
+	background: right/50% url("../img/tachebleue.png") fixed no-repeat;
 	z-index: -3;
 }
 /*Work stain*/
@@ -145,7 +145,7 @@ nav{
 	width:100%;
 	height: 100%;
 	transform: translateY(100vh);
-	background: left/50% url("../img/tache_mauve1.png") fixed no-repeat;
+	background: left/50% url("../img/tacherose.png") fixed no-repeat;
 	z-index: -1;
 }
 .layer-5{
@@ -154,7 +154,7 @@ nav{
 	width:100%;
 	height: 100%;
 	transform: translateY(100vh);
-	background: right/50% url("../img/tache_verte2.png") fixed no-repeat;
+	background: right/50% url("../img/tachevert.png") fixed no-repeat;
 	z-index: -1;
 }
 
